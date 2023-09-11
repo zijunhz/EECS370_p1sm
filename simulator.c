@@ -96,7 +96,7 @@ int main(int argc, char** argv) {
         int8_t needAddOne = 1;
         printState(&state);
         cnt++;
-        if (cnt > 500) {
+        if (cnt > 10000) {
             printf("Force stop\n");
             return 1;
         }
